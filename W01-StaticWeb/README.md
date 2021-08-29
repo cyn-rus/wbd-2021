@@ -1,7 +1,7 @@
 Berikut adalah screenshot dari halaman-halaman yang telah dibuat
 
 <h1>Main Page</h1>
-![Main Page](https://gitlab.informatika.org/cyn-rus/wbd-2021/-/blob/master/W01-StaticWeb/screenshots/main_page.jpg)
+![alt text](/screenshots/main_page.jpg "Main Page")
 
 <h1>Detail Page</h1>
-![Detail Page](https://gitlab.informatika.org/cyn-rus/wbd-2021/-/blob/master/W01-StaticWeb/screenshots/detail_page.jpg)
+![alt text](/screenshots/detail_page.jpg "Detail Page")

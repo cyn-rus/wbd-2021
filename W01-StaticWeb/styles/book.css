@@ -1,0 +1,54 @@
+body {
+  background-color: #1A1A43;
+  height: 100vh;
+}
+
+h1, h3, p, a {
+  font-family: 'Courier New', Courier, monospace;
+  color: #8d775c;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 20px;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  overflow: hidden;
+}
+
+img {
+  height: 300px;
+  width: auto;
+  transition: transform 0.7s;
+}
+
+img:hover {
+  transform: scale(1.2);
+}
+
+.price h3 {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.description-detail p {
+  margin-bottom: 0;
+}
+
+.description-detail span {
+  font-weight: bold;
+}

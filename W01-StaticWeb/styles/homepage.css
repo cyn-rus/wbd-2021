@@ -1,0 +1,86 @@
+body {
+  background-color: #1A1A43;
+  height: 100vh;
+}
+
+h1, p {
+  font-family: 'Courier New', Courier, monospace;
+  color: #8d775c;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+h1 {
+  background-color: #4e2f08;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 1px;
+  transform: rotate(2deg);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 98vw; 
+}
+
+.card {
+  background-color: #4e2f08;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  transition: transform 0.5s;
+  border-radius: 0.5rem;
+  box-shadow: 0px 10px 10px 4px rgb(32, 19, 33, 0.8);
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: translateY(-5%);
+}
+
+.image {
+  width: fit-content;
+  height: 200px;
+}
+
+.thumbnail-image {
+  height: 200px;
+  width: auto;
+  object-fit: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.description {
+  width: 200px;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.title p {
+  word-wrap: break-word;
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 0 10px;
+  font-weight: 700;
+}
+
+.price p {
+  margin: 10px;
+  text-align: center;
+}

@@ -32,7 +32,13 @@ function generatePage(i) {
       </div>`    
   }
 
-  div.innerHTML += '</div>'
+  div.innerHTML += `
+    <form action='' method='post'>
+      <input type='text' class='book-id' name='book-id' id='book-id' value=${data[i].primer['url-foto']} />
+      <input name='add-cart' type='submit' class='add-cart-btn' value='Tambahkan ke Keranjang' />
+    </form>
+  </div>
+  `
 
   return div
 }

@@ -1,9 +1,11 @@
 body {
   background-color: #1A1A43;
   height: 100vh;
+  margin: 0 !important;
+  padding-bottom: 5rem;
 }
 
-h1, h3, p, a {
+h1, h3, p, a, input {
   font-family: 'Courier New', Courier, monospace;
   color: #8d775c;
 }
@@ -51,4 +53,29 @@ img:hover {
 
 .description-detail span {
   font-weight: bold;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.add-cart-btn {
+  background-color: #4E2F08;
+  margin-top: 1.5rem;
+  border: 1px solid black;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.2rem;
+  width: 20rem;
+}
+
+.add-cart-btn:hover {
+  background-color: #8d775c;
+  color: #4E2F08;
+}
+
+.book-id {
+  display: none;
 }

@@ -1,0 +1,95 @@
+body {
+  background-color: #1A1A43;
+  height: 100vh;
+  margin: 0 !important;
+}
+
+h1, h2, h3, a, input {
+  font-family: 'Courier New', Courier, monospace;
+  color: #8D775C;
+}
+
+.btn {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 20px;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  background-color: #4e2f08;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 1px;
+  transform: rotate(2deg);
+  margin-top: 10px;
+}
+
+.filled-cart {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.cart-card {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  width: 500px;
+  background-color: #4E2F08;
+  border-radius: 0.5rem;
+  box-shadow: 0px 10px 10px 4px rgb(32, 19, 33, 0.8);
+}
+
+.img {
+  height: 250px;
+  width: fit-content;
+  margin-right: 30px;
+}
+
+img {
+  height: 250px;
+  width: auto;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  background-color: #4E2F08;
+  border: 1px solid black;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.2rem;
+  height: fit-content;
+  margin-right: 20px;
+}
+
+input:hover {
+  background-color: #8d775c;
+  color: #4E2F08;
+}
+
+.empty-cart {
+  display: flex;
+  justify-content: center;
+}

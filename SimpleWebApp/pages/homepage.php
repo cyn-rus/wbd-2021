@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Simple Web App</title>
 
-  <link rel="stylesheet" href="../styles/homepage.css">
+  <link rel="stylesheet" href="../styles/homepage.css?v<?php echo time() ?>">
 
   <script src='../data/books.js' defer></script>
   <script src='../script/homepage.js' defer></script>

@@ -13,7 +13,7 @@
         foreach ($users_array as $user) {
           $curr_user = explode(':', $user);
           if ($curr_user[0] == $input_user && $curr_user[1] == $input_pw) {
-            header('Location: homepage.html');
+            header('Location: homepage.php');
           }
         }
 

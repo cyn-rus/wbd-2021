@@ -22,7 +22,7 @@
 <body>
   <div class='page'>
     <div class='btn'>
-      <a href='homepage.html'>← Halaman Utama</a>
+      <a href='homepage.php'>← Halaman Utama</a>
       <form action='' method='post'>
         <input name='remove' type='submit' value='Hapus isi keranjang' />
       </form>

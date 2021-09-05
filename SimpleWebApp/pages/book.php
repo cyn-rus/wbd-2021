@@ -2,7 +2,7 @@
   if (isset($_POST['add-cart'])) {
     $cookie_name = 'cart-data';
     $book_id = $_POST['book-id'];
-    
+
     if (isset($_COOKIE[$cookie_name])) {
       $cookie_value = json_decode($_COOKIE[$cookie_name], true);
     }
@@ -32,7 +32,7 @@
 </head>
 <body>
   <div class='btn'>
-    <a href='homepage.html' class='homepage-btn'>← Kembali</a>
+    <a href='homepage.php' class='homepage-btn'>← Kembali</a>
     <a href='cart.php' class='cart-btn'>Keranjang →</a>
   </div>
   <div id='page' class='page'></div>
